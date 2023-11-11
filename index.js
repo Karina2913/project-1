@@ -25,8 +25,8 @@ function addExpense() {
     let amount = document.getElementById("amount");
 
     //error test -- add later
+    // test using if statement -- ensure data type is correct, actual number, not negative
 
     //push data onto existing table
     expenseEntries.push()
-
 }
