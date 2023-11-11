@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <script src="index.js"></script>
+    <div id="main-title">
+        <h2>Pending: Title</h2>
+        <h4>Enter your expenses below:</h4>
+
+        <form id="expense-form" action="" method="POST">
+            <label for="expense-memo">Expense:</label>
+            <input type="text" id="expense-memo" name="expense-memo" placeholder="memo (ex. gas)">
+            <input type="text" id="amount" name="amount" placeholder="amount (ex. $100)">
+            <input type="submit" value="Add Expense">
+        </form>
+    </div>
+
+    <div id="entries-list">
+        <table>
+            <tr>
+                <th>Memo</th>
+                <th>Amount</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+    <table>
+        <tr>
+            <td>Example1</td>
+            <td>$100</td>
+            <td>Delete button here</td>
+        </tr>
+    </table>
+    </div> 
 </body>
-</html>
+</html>                       

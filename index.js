@@ -6,3 +6,4 @@ function fetchData() {
     .then((data) => console.log(data))
 }
 console.log(fetchData);
+
