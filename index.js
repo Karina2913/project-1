@@ -7,3 +7,26 @@ function fetchData() {
 }
 console.log(fetchData);
 
+//initial expenses for example -- might delete later
+let expenseEntries = [
+    {
+        expense: "rent", 
+        amonut: 1000
+    },
+    {
+        expense: "groceries",
+        amount: 100
+    }
+];
+
+//add new expenses
+function addExpense() {
+    let expense = document.getElementById("expense-memo");
+    let amount = document.getElementById("amount");
+
+    //error test -- add later
+
+    //push data onto existing table
+    expenseEntries.push()
+
+}
