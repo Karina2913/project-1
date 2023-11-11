@@ -11,7 +11,7 @@ console.log(fetchData);
 let expenseEntries = [
     {
         expense: "rent", 
-        amonut: 1000
+        amount: 1000
     },
     {
         expense: "groceries",
@@ -25,8 +25,12 @@ function addExpense() {
     let amount = document.getElementById("amount");
 
     //error test -- add later
-    // test using if statement -- ensure data type is correct, actual number, not negative
+    // test using if statement -- ensure data type is correct, actual number, not negative,
+    //there's an entry for both input boxes
 
-    //push data onto existing table
-    expenseEntries.push()
+    //push data onto existing table -- should I be using push with a string?
+    expenseEntries.push({
+            expense: expense, 
+            amount: amount
+    });
 }

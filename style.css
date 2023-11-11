@@ -18,6 +18,14 @@
     text-align: center;
 }
 
+#new-entries {
+    text-align: center;
+}
+
+#expense-memo {
+    align-self: center;
+}
+
 #entries-list {
     background: white;
 }

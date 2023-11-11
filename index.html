@@ -14,23 +14,22 @@
         <h2>Pending: Title</h2>
         <h4>Enter your expenses below:</h4>
 
+        <!-- Do I still need this here?
         <form id="expense-form" action="" method="POST">
             <label for="expense-memo">Expense:</label>
-            <!--
-            <input type="text" id="expense-memo" name="expense-memo" placeholder="memo (ex. gas)">
-            <input type="text" id="amount" name="amount" placeholder="amount (ex. $100)">
-            <input type="submit" value="Add Expense">
-            -->
         </form>
+    -->
     </div>
 
     <div class="main">
         <div id="new-entries">
             <div class="memo-entry">
-                <input type="text" id="expense-memo" placeholder="memo (ex. gas)"/>
+                <p style="width: auto">Memo:</p>
+                <input type="text" id="expense-memo" placeholder="(ex. gas)"/>
             </div>
             <div class="amount-entry">
-                <input type="text" id="amount" placeholder="amount (ex. $50)"/>
+                <p style="width: auto">Amount:</p>
+                <input type="number" id="amount" placeholder="(ex. 50)"/>
             </div>
 
             <button onclick="addExpense()">
@@ -45,13 +44,6 @@
                     <th>Delete</th>
                 </tr>
             </table>
-        <!-- <table>
-            <tr>
-                <td>Example1</td>
-                <td>$100</td>
-                <td>Delete button here</td>
-            </tr> 
-        </table> -->
         </div>
     </div>
 </body>
